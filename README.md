@@ -3,7 +3,7 @@
 ![Main form](IMG.png "frmMain")
 
 # VoskRecognizeTTS
-Utility for testing speech recognition language models "Vosk" (20+ languages ??and dialects) https://alphacephei.com/vosk/
+Utility for testing speech recognition language models "Vosk" (20+ languages and dialects) https://alphacephei.com/vosk/
 
 Possibilities:
 1. Speech generation using the TTS (Text to Speech) text-to-speech converter built into Windows, with the transfer of this speech to the “Wax” recognition engine
