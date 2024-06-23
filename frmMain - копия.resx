@@ -1,0 +1,937 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 396</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cbPlayRecognized.Name" xml:space="preserve">
+    <value>cbPlayRecognized</value>
+  </data>
+  <data name="&gt;&gt;cbPlayRecognized.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbPlayRecognized.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;cbPlayRecognized.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbTTSVolume.Name" xml:space="preserve">
+    <value>tbTTSVolume</value>
+  </data>
+  <data name="&gt;&gt;tbTTSVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbTTSVolume.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;tbTTSVolume.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbTTSRate.Name" xml:space="preserve">
+    <value>tbTTSRate</value>
+  </data>
+  <data name="&gt;&gt;tbTTSRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbTTSRate.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;tbTTSRate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbTTSVolume.Name" xml:space="preserve">
+    <value>lbTTSVolume</value>
+  </data>
+  <data name="&gt;&gt;lbTTSVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbTTSVolume.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;lbTTSVolume.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbTTSRate.Name" xml:space="preserve">
+    <value>lbTTSRate</value>
+  </data>
+  <data name="&gt;&gt;lbTTSRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbTTSRate.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;lbTTSRate.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnSavePath.Name" xml:space="preserve">
+    <value>btnSavePath</value>
+  </data>
+  <data name="&gt;&gt;btnSavePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSavePath.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;btnSavePath.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbSavePath.Name" xml:space="preserve">
+    <value>tbSavePath</value>
+  </data>
+  <data name="&gt;&gt;tbSavePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSavePath.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;tbSavePath.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cbTTSSavePath.Name" xml:space="preserve">
+    <value>cbTTSSavePath</value>
+  </data>
+  <data name="&gt;&gt;cbTTSSavePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbTTSSavePath.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;cbTTSSavePath.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cbMicrofone.Name" xml:space="preserve">
+    <value>cbMicrofone</value>
+  </data>
+  <data name="&gt;&gt;cbMicrofone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbMicrofone.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;cbMicrofone.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnWavPath.Name" xml:space="preserve">
+    <value>btnWavPath</value>
+  </data>
+  <data name="&gt;&gt;btnWavPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnWavPath.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;btnWavPath.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tbWavPath.Name" xml:space="preserve">
+    <value>tbWavPath</value>
+  </data>
+  <data name="&gt;&gt;tbWavPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbWavPath.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;tbWavPath.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;rbWav.Name" xml:space="preserve">
+    <value>rbWav</value>
+  </data>
+  <data name="&gt;&gt;rbWav.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbWav.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;rbWav.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;rbMic.Name" xml:space="preserve">
+    <value>rbMic</value>
+  </data>
+  <data name="&gt;&gt;rbMic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbMic.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;rbMic.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;rbTTS.Name" xml:space="preserve">
+    <value>rbTTS</value>
+  </data>
+  <data name="&gt;&gt;rbTTS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbTTS.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;rbTTS.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cbTTSVoice.Name" xml:space="preserve">
+    <value>cbTTSVoice</value>
+  </data>
+  <data name="&gt;&gt;cbTTSVoice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbTTSVoice.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;cbTTSVoice.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnVoskPath.Name" xml:space="preserve">
+    <value>btnVoskPath</value>
+  </data>
+  <data name="&gt;&gt;btnVoskPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnVoskPath.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;btnVoskPath.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tbVoskPath.Name" xml:space="preserve">
+    <value>tbVoskPath</value>
+  </data>
+  <data name="&gt;&gt;tbVoskPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbVoskPath.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;tbVoskPath.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lbVoskPath.Name" xml:space="preserve">
+    <value>lbVoskPath</value>
+  </data>
+  <data name="&gt;&gt;lbVoskPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbVoskPath.Parent" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;lbVoskPath.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="gbControls.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="gbControls.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 312</value>
+  </data>
+  <data name="gbControls.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 312</value>
+  </data>
+  <data name="gbControls.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gbControls.Name" xml:space="preserve">
+    <value>gbControls</value>
+  </data>
+  <data name="&gt;&gt;gbControls.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbControls.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbControls.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbPlayRecognized.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbPlayRecognized.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbPlayRecognized.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 247</value>
+  </data>
+  <data name="cbPlayRecognized.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 21</value>
+  </data>
+  <data name="cbPlayRecognized.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="cbPlayRecognized.Text" xml:space="preserve">
+    <value>Play recognized audio (slowly)</value>
+  </data>
+  <data name="tbTTSVolume.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbTTSVolume.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbTTSVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>499, 104</value>
+  </data>
+  <data name="tbTTSVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 41</value>
+  </data>
+  <data name="tbTTSVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="tbTTSRate.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbTTSRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 104</value>
+  </data>
+  <data name="tbTTSRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 41</value>
+  </data>
+  <data name="tbTTSRate.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lbTTSVolume.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbTTSVolume.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbTTSVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 116</value>
+  </data>
+  <data name="lbTTSVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="lbTTSVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lbTTSVolume.Text" xml:space="preserve">
+    <value>Volume:</value>
+  </data>
+  <data name="lbTTSRate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbTTSRate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbTTSRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 116</value>
+  </data>
+  <data name="lbTTSRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="lbTTSRate.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lbTTSRate.Text" xml:space="preserve">
+    <value>Rate:</value>
+  </data>
+  <data name="btnSavePath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSavePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>698, 284</value>
+  </data>
+  <data name="btnSavePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 23</value>
+  </data>
+  <data name="btnSavePath.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnSavePath.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="tbSavePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 284</value>
+  </data>
+  <data name="tbSavePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>537, 22</value>
+  </data>
+  <data name="tbSavePath.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="tbSavePath.Text" xml:space="preserve">
+    <value>file.wav</value>
+  </data>
+  <data name="cbTTSSavePath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbTTSSavePath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbTTSSavePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 284</value>
+  </data>
+  <data name="cbTTSSavePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 21</value>
+  </data>
+  <data name="cbTTSSavePath.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbTTSSavePath.Text" xml:space="preserve">
+    <value>Save to file:</value>
+  </data>
+  <data name="cbMicrofone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 154</value>
+  </data>
+  <data name="cbMicrofone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>585, 24</value>
+  </data>
+  <data name="cbMicrofone.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnWavPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnWavPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>698, 203</value>
+  </data>
+  <data name="btnWavPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 23</value>
+  </data>
+  <data name="btnWavPath.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnWavPath.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="tbWavPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 204</value>
+  </data>
+  <data name="tbWavPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>537, 22</value>
+  </data>
+  <data name="tbWavPath.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tbWavPath.Text" xml:space="preserve">
+    <value>file.wav</value>
+  </data>
+  <data name="rbWav.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbWav.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 205</value>
+  </data>
+  <data name="rbWav.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 21</value>
+  </data>
+  <data name="rbWav.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rbWav.Text" xml:space="preserve">
+    <value>.wav</value>
+  </data>
+  <data name="rbMic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbMic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 157</value>
+  </data>
+  <data name="rbMic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 21</value>
+  </data>
+  <data name="rbMic.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="rbMic.Text" xml:space="preserve">
+    <value>Microfone</value>
+  </data>
+  <data name="rbTTS.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbTTS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 77</value>
+  </data>
+  <data name="rbTTS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 21</value>
+  </data>
+  <data name="rbTTS.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rbTTS.Text" xml:space="preserve">
+    <value>TTS</value>
+  </data>
+  <data name="cbTTSVoice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 74</value>
+  </data>
+  <data name="cbTTSVoice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>585, 24</value>
+  </data>
+  <data name="cbTTSVoice.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnVoskPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>698, 28</value>
+  </data>
+  <data name="btnVoskPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 23</value>
+  </data>
+  <data name="btnVoskPath.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnVoskPath.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="tbVoskPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 28</value>
+  </data>
+  <data name="tbVoskPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>537, 22</value>
+  </data>
+  <data name="tbVoskPath.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbVoskPath.Text" xml:space="preserve">
+    <value>vosk-model-small-en-us-0.15</value>
+  </data>
+  <data name="lbVoskPath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbVoskPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 28</value>
+  </data>
+  <data name="lbVoskPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 17</value>
+  </data>
+  <data name="lbVoskPath.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbVoskPath.Text" xml:space="preserve">
+    <value>Vosk model path</value>
+  </data>
+  <data name="splitter1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="splitter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 302</value>
+  </data>
+  <data name="splitter1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 10</value>
+  </data>
+  <data name="splitter1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Name" xml:space="preserve">
+    <value>splitter1</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitter1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tbText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="tbText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbText.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="tbText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 229</value>
+  </data>
+  <data name="tbText.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="tbText.Text" xml:space="preserve">
+    <value>We have two types of models - big and small, small models are ideal for some limited task on mobile applications. They can run on smartphones, Raspberry Pi’s. They are also recommended for desktop applications. Small model typically is around 50Mb in size and requires about 300Mb of memory in runtime. Big models are for the high-accuracy transcription on the server. Big models require up to 16Gb in memory since they apply advanced AI algorithms. Ideally you run them on some high-end servers like i7 or latest AMD Ryzen.</value>
+  </data>
+  <data name="&gt;&gt;tbText.Name" xml:space="preserve">
+    <value>tbText</value>
+  </data>
+  <data name="&gt;&gt;tbText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbText.Parent" xml:space="preserve">
+    <value>gbData</value>
+  </data>
+  <data name="&gt;&gt;tbText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbResult.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="tbResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 18</value>
+  </data>
+  <data name="tbResult.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbResult.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="tbResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 229</value>
+  </data>
+  <data name="tbResult.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="tbResult.Text" xml:space="preserve">
+    <value>Good russian TTS voices:
+https://github.com/RHVoice/RHVoice/blob/master/doc/ru/Binaries.md#sapi-5
+
+Microsoft official voices:
+https://www.microsoft.com/en-us/download/details.aspx?id=27224&amp;quot</value>
+  </data>
+  <data name="&gt;&gt;tbResult.Name" xml:space="preserve">
+    <value>tbResult</value>
+  </data>
+  <data name="&gt;&gt;tbResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbResult.Parent" xml:space="preserve">
+    <value>gbData</value>
+  </data>
+  <data name="&gt;&gt;tbResult.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitter3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="splitter3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="splitter3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 247</value>
+  </data>
+  <data name="splitter3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>747, 10</value>
+  </data>
+  <data name="splitter3.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;splitter3.Name" xml:space="preserve">
+    <value>splitter3</value>
+  </data>
+  <data name="&gt;&gt;splitter3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitter3.Parent" xml:space="preserve">
+    <value>gbData</value>
+  </data>
+  <data name="&gt;&gt;splitter3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="splitter2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="splitter2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="splitter2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>750, 18</value>
+  </data>
+  <data name="splitter2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 239</value>
+  </data>
+  <data name="splitter2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;splitter2.Name" xml:space="preserve">
+    <value>splitter2</value>
+  </data>
+  <data name="&gt;&gt;splitter2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitter2.Parent" xml:space="preserve">
+    <value>gbData</value>
+  </data>
+  <data name="&gt;&gt;splitter2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbLog.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tbLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 257</value>
+  </data>
+  <data name="tbLog.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbLog.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="tbLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>757, 42</value>
+  </data>
+  <data name="tbLog.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tbLog.Text" xml:space="preserve">
+    <value>recognized text...</value>
+  </data>
+  <data name="&gt;&gt;tbLog.Name" xml:space="preserve">
+    <value>tbLog</value>
+  </data>
+  <data name="&gt;&gt;tbLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbLog.Parent" xml:space="preserve">
+    <value>gbData</value>
+  </data>
+  <data name="&gt;&gt;tbLog.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="gbData.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gbData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 302</value>
+  </data>
+  <data name="gbData.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;gbData.Name" xml:space="preserve">
+    <value>gbData</value>
+  </data>
+  <data name="&gt;&gt;gbData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbData.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="backgroundWorkerRecognize.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="&gt;&gt;btnRecognize.Name" xml:space="preserve">
+    <value>btnRecognize</value>
+  </data>
+  <data name="&gt;&gt;btnRecognize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRecognize.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnRecognize.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 624</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 57</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnRecognize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnRecognize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRecognize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 6</value>
+  </data>
+  <data name="btnRecognize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 45</value>
+  </data>
+  <data name="btnRecognize.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnRecognize.Text" xml:space="preserve">
+    <value>Recognize</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>763, 681</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>VoskRecognizeTTS by https://github.com/virex-84</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorkerRecognize.Name" xml:space="preserve">
+    <value>backgroundWorkerRecognize</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorkerRecognize.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="recognize" xml:space="preserve">
+    <value>Recognize</value>
+  </data>
+  <data name="stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="can_not_save_to_file" xml:space="preserve">
+    <value>Can not save to file!</value>
+  </data>
+  <data name="not_select_microfone" xml:space="preserve">
+    <value>Not select microfone!</value>
+  </data>
+  <data name="vosk_model_path_is_empty" xml:space="preserve">
+    <value>Vosk model path is empty!</value>
+  </data>
+</root>
